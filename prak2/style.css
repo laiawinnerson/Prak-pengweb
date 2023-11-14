@@ -1,0 +1,143 @@
+body{
+    font-family: 'Times New Roman';
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 900px;
+    background-color: blanchedalmond;
+}
+
+.header{
+    height: 200px;
+    background-color: rgba(12, 12, 12, 0.445);
+}
+
+.header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+}
+
+.header .nama{
+    /* text-align: ; */
+    padding-top: 50px;
+    /* font-family: Georgia; */
+}
+
+.header .nama h3{
+    color: aquamarine;
+}
+
+.header .nama p{
+    color: aliceblue;
+}
+.nav {
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+    margin-top: 74px;
+}
+.nav ul{
+    display: flex;
+    justify-content: end;
+    
+}
+.nav li{
+    list-style-type: none; 
+    display: inline;
+    font: 20px/25px 'Courier New' sans-serif;
+    margin: 10px 10px;
+}
+
+.nav li:last-child{
+    margin-right: 50px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: red;
+    color: white;
+}
+.nav li a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+.main {
+    margin: 80px 20px 10px 20px;
+    padding: 10px 15px;
+    background-color: white;
+}
+
+
+.main video{
+    width: 50%;
+    height: 50%;
+    border: 1px black solid;
+    position: relative;
+    left: 225px;
+}
+
+.main figcaption{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.experien{
+    background-color: whitesmoke;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 15px;
+}
+.experien h3{
+    text-align: left;
+}
+.experien{
+    margin: 20px 20px;
+    padding: 10px 15px;
+    background-color: white;
+    text-align: center; 
+    display: grid;
+    
+}
+.experien table th{
+    background-color: rgb(165, 161, 161);
+}
+  
+.experien table td,th{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.CallMe{
+    background-color: whitesmoke;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 15px;
+    
+}
+
+.CallMe button{
+    background-color: rgb(6, 215, 223);
+}
+
+.CallMe button a{
+    text-decoration: none;
+    color: black;
+    font: 16px 'Courier New' solid;
+}
+
+.footer{
+    background-color: rgba(12, 12, 12, 0.445);
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px;
+}
